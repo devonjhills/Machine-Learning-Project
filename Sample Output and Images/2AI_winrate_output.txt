@@ -1,0 +1,12 @@
+Sample run of two completely random AI players.
+
+During each game iteration, the starting player is randomly chosen, for
+fairness. Variables store player 1 and player 2 win counts. The command line
+argument indicates the number of games to play. As expected, the base case of
+two completely random AI players is a near perfect 50/50 split.
+
+$ ./con4 10000
+
+Player 1 win count: 4992
+
+Player 2 win count: 5008

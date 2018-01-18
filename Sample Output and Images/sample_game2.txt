@@ -1,0 +1,264 @@
+This is the case where it gets an easy 4-turn win
+
+
+$ ./con4 1
+Playing game 1.
+
+ 1   2   3   4   5   6   7  
+   │   │   │   │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │   │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │   │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │   │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │   │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │   │   │   │   
+
+
+ 1   2   3   4   5   6   7  
+   │   │   │   │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │   │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │   │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │   │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │   │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │ 1 │   │   │   
+
+
+ 1   2   3   4   5   6   7  
+   │   │   │   │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │   │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │   │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │   │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │   │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │ 1 │   │ 2 │   
+
+
+ 1   2   3   4   5   6   7  
+   │   │   │   │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │   │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │   │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │   │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │ 1 │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │ 1 │   │ 2 │   
+
+
+ 1   2   3   4   5   6   7  
+   │   │   │   │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │   │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │   │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │   │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │ 1 │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │ 2 │ 1 │   │ 2 │   
+
+
+ 1   2   3   4   5   6   7  
+   │   │   │   │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │   │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │   │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │ 1 │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │ 1 │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │ 2 │ 1 │   │ 2 │   
+
+
+ 1   2   3   4   5   6   7  
+   │   │   │   │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │   │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │   │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │ 1 │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │ 1 │   │   │   
+───┼───┼───┼───┼───┼───┼───
+ 2 │   │ 2 │ 1 │   │ 2 │   
+
+
+ 1   2   3   4   5   6   7  
+   │   │   │   │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │   │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │ 1 │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │ 1 │   │   │   
+───┼───┼───┼───┼───┼───┼───
+   │   │   │ 1 │   │   │   
+───┼───┼───┼───┼───┼───┼───
+ 2 │   │ 2 │ 1 │   │ 2 │   
+
+Learning Machine win count: 1
+Random Computer  win count: 0
+
+
+
+========== NEW INVOCATION ==========
+	input_board = [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ]
+	=>    board = [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+	Testing position 1 with this temp board:
+	  tmp_board = [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ]
+	The probability is 0.669960
+		This is the best so far!
+
+	Testing position 2 with this temp board:
+	  tmp_board = [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ]
+	The probability is 0.943972
+		This is the best so far!
+
+	Testing position 3 with this temp board:
+	  tmp_board = [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ]
+	The probability is 0.956498
+		This is the best so far!
+
+	Testing position 4 with this temp board:
+	  tmp_board = [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ]
+	The probability is 0.995649
+		This is the best so far!
+
+	Testing position 5 with this temp board:
+	  tmp_board = [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ]
+	The probability is 0.678095
+
+	Testing position 6 with this temp board:
+	  tmp_board = [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 ]
+	The probability is 0.483363
+
+	Testing position 7 with this temp board:
+	  tmp_board = [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 ]
+	The probability is 0.312953
+Choosing 4 as my move!
+
+========== NEW INVOCATION ==========
+	input_board = [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 ]
+	=>    board = [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 
+	Testing position 1 with this temp board:
+	  tmp_board = [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 ]
+	The probability is 0.963985
+		This is the best so far!
+
+	Testing position 2 with this temp board:
+	  tmp_board = [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 ]
+	The probability is 0.978661
+		This is the best so far!
+
+	Testing position 3 with this temp board:
+	  tmp_board = [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 ]
+	The probability is 0.990239
+		This is the best so far!
+
+	Testing position 4 with this temp board:
+	  tmp_board = [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 ]
+	The probability is 0.999826
+		This is the best so far!
+
+	Testing position 5 with this temp board:
+	  tmp_board = [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 ]
+	The probability is 0.908696
+
+	Testing position 6 with this temp board:
+	  tmp_board = [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 -1 1 0 0 0 0 0 0 0 0 0 0 ]
+	The probability is 0.999171
+
+	Testing position 7 with this temp board:
+	  tmp_board = [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 1 0 0 0 0 0 ]
+	The probability is 0.971386
+Choosing 4 as my move!
+
+========== NEW INVOCATION ==========
+	input_board = [0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 ]
+	=>    board = [0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 
+	Testing position 1 with this temp board:
+	  tmp_board = [1 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 ]
+	The probability is 0.994184
+		This is the best so far!
+
+	Testing position 2 with this temp board:
+	  tmp_board = [0 0 0 0 0 0 1 0 0 0 0 0 -1 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 ]
+	The probability is 0.996685
+		This is the best so far!
+
+	Testing position 3 with this temp board:
+	  tmp_board = [0 0 0 0 0 0 0 0 0 0 0 0 -1 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 ]
+	The probability is 0.998146
+		This is the best so far!
+
+	Testing position 4 with this temp board:
+	  tmp_board = [0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 ]
+	The probability is 0.999861
+		This is the best so far!
+
+	Testing position 5 with this temp board:
+	  tmp_board = [0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 ]
+	The probability is 0.938381
+
+	Testing position 6 with this temp board:
+	  tmp_board = [0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 -1 1 0 0 0 0 0 0 0 0 0 0 ]
+	The probability is 0.999136
+
+	Testing position 7 with this temp board:
+	  tmp_board = [0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 1 0 0 0 0 0 ]
+	The probability is 0.987763
+Choosing 4 as my move!
+
+========== NEW INVOCATION ==========
+	input_board = [2 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 ]
+	=>    board = [-1 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 
+	Testing position 1 with this temp board:
+	  tmp_board = [-1 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 ]
+	The probability is 0.999824
+		This is the best so far!
+
+	Testing position 2 with this temp board:
+	  tmp_board = [-1 0 0 0 0 0 1 0 0 0 0 0 -1 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 ]
+	The probability is 0.999845
+		This is the best so far!
+
+	Testing position 3 with this temp board:
+	  tmp_board = [-1 0 0 0 0 0 0 0 0 0 0 0 -1 1 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 ]
+	The probability is 0.999731
+
+	Testing position 4 with this temp board:
+	  tmp_board = [-1 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 ]
+	The probability is 0.999913
+		This is the best so far!
+
+	Testing position 5 with this temp board:
+	  tmp_board = [-1 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 1 1 1 0 0 0 1 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 ]
+	The probability is 0.999807
+
+	Testing position 6 with this temp board:
+	  tmp_board = [-1 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 -1 1 0 0 0 0 0 0 0 0 0 0 ]
+	The probability is 0.999902
+
+	Testing position 7 with this temp board:
+	  tmp_board = [-1 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 1 0 0 0 0 0 ]
+	The probability is 0.999758
+Choosing 4 as my move!
